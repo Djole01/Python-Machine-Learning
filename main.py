@@ -57,7 +57,7 @@ for x in range(len(predictions)):
     print(predictions[x], x_test[x], y_test[x])
 
 
-#scatter plotting our model
+#scatter plotting our model 
 p = 'G1'
 style.use("ggplot")
 pyplot.scatter(data[p],data["G3"]) #plotting attributes against each other
